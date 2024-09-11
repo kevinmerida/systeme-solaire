@@ -20,3 +20,7 @@ Ce modèle fait donc appel à la mécanique classique et aux lois de Newton pour
 Le programme de simulation qui résout numériquement l'équation d'état proposée permet de réaliser ensuite des comparaisons avec les [éphémérides fournies par le JPL](https://ssd.jpl.nasa.gov/horizons/app.html#/). Les conditions initiales pour les simulations numériques correspondent à la première ligne des fichiers importés du site du JPL, donc aux positions et vitesses des astres à la date de début choisie. Le pas de calcul pour les simulations numériques est le même que celui choisi pour les fichiers importés, afin de faciliter les comparaisons.
 
 L'objectif est de montrer que la modélisation simplifiée qui est proposée donne cependant des résultats qui restent cohérents avec ces éphémérides très précises du JPL.
+
+## Programmes et résultats
+
+Le programme [**astro.py**](Code/astro.py) contient les fonctions permettant de réaliser les simulations numériques, puis de visualiser les résultats. Le notebook [**astro.ipynb**](Notebook/astro.ipynb) donne quelques exemples d'appels à ces fonctions.
