@@ -1,6 +1,6 @@
 # Système solaire (simulations numériques en Python)
 
-[vidéo d'illustration](https://www.youtube.com/watch?v=oL14Y5qqagk)
+La vidéo : https://www.youtube.com/watch?v=oL14Y5qqagk
 
 ## Description du modèle testé et objectif suivi
 
